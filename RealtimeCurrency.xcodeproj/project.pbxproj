@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029BAEE22210D77900D7D738 /* RatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029BAEDF2210D77900D7D738 /* RatesViewController.swift */; };
+		029BAEE32210D77900D7D738 /* RatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029BAEE02210D77900D7D738 /* RatesPresenter.swift */; };
+		029BAEE42210D77900D7D738 /* RatesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029BAEE12210D77900D7D738 /* RatesDataSource.swift */; };
 		02E57102220684260037EFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E57101220684260037EFE0 /* AppDelegate.swift */; };
-		02E57104220684260037EFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E57103220684260037EFE0 /* ViewController.swift */; };
 		02E57107220684260037EFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E57105220684260037EFE0 /* Main.storyboard */; };
 		02E57109220684280037EFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E57108220684280037EFE0 /* Assets.xcassets */; };
 		02E5710C220684280037EFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E5710A220684280037EFE0 /* LaunchScreen.storyboard */; };
 		02E57117220684280037EFE0 /* RealtimeCurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E57116220684280037EFE0 /* RealtimeCurrencyTests.swift */; };
+		02E5712322068DA20037EFE0 /* RealtimeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5712222068DA20037EFE0 /* RealtimeTimer.swift */; };
+		02E57125220694940037EFE0 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E57124220694940037EFE0 /* APIHandler.swift */; };
+		02E5712722069D060037EFE0 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5712622069D060037EFE0 /* Currency.swift */; };
+		02E571292206A7B90037EFE0 /* RatesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E571282206A7B90037EFE0 /* RatesParser.swift */; };
+		02E5712B2206AD240037EFE0 /* CurrencyCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5712A2206AD240037EFE0 /* CurrencyCellModel.swift */; };
+		02E5712F2208140E0037EFE0 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5712E2208140E0037EFE0 /* CurrencyCell.swift */; };
+		02E571312208185D0037EFE0 /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E571302208185D0037EFE0 /* CurrencyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029BAEDF2210D77900D7D738 /* RatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
+		029BAEE02210D77900D7D738 /* RatesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatesPresenter.swift; sourceTree = "<group>"; };
+		029BAEE12210D77900D7D738 /* RatesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatesDataSource.swift; sourceTree = "<group>"; };
 		02E570FE220684260037EFE0 /* RealtimeCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E57101220684260037EFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02E57103220684260037EFE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02E57106220684260037EFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02E57108220684280037EFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E5710B220684280037EFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,13 @@
 		02E57112220684280037EFE0 /* RealtimeCurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeCurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E57116220684280037EFE0 /* RealtimeCurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeCurrencyTests.swift; sourceTree = "<group>"; };
 		02E57118220684280037EFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E5712222068DA20037EFE0 /* RealtimeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeTimer.swift; sourceTree = "<group>"; };
+		02E57124220694940037EFE0 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		02E5712622069D060037EFE0 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		02E571282206A7B90037EFE0 /* RatesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesParser.swift; sourceTree = "<group>"; };
+		02E5712A2206AD240037EFE0 /* CurrencyCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCellModel.swift; sourceTree = "<group>"; };
+		02E5712E2208140E0037EFE0 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		02E571302208185D0037EFE0 /* CurrencyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029BAEDE2210D77900D7D738 /* RatesFeature */ = {
+			isa = PBXGroup;
+			children = (
+				029BAEDF2210D77900D7D738 /* RatesViewController.swift */,
+				029BAEE02210D77900D7D738 /* RatesPresenter.swift */,
+				029BAEE12210D77900D7D738 /* RatesDataSource.swift */,
+			);
+			path = RatesFeature;
+			sourceTree = "<group>";
+		};
 		02E570F5220684260037EFE0 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +105,9 @@
 		02E57100220684260037EFE0 /* RealtimeCurrency */ = {
 			isa = PBXGroup;
 			children = (
+				029BAEDE2210D77900D7D738 /* RatesFeature */,
+				02E5712122068D820037EFE0 /* Classes */,
 				02E57101220684260037EFE0 /* AppDelegate.swift */,
-				02E57103220684260037EFE0 /* ViewController.swift */,
 				02E57105220684260037EFE0 /* Main.storyboard */,
 				02E57108220684280037EFE0 /* Assets.xcassets */,
 				02E5710A220684280037EFE0 /* LaunchScreen.storyboard */,
@@ -94,6 +123,20 @@
 				02E57118220684280037EFE0 /* Info.plist */,
 			);
 			path = RealtimeCurrencyTests;
+			sourceTree = "<group>";
+		};
+		02E5712122068D820037EFE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02E5712222068DA20037EFE0 /* RealtimeTimer.swift */,
+				02E57124220694940037EFE0 /* APIHandler.swift */,
+				02E5712622069D060037EFE0 /* Currency.swift */,
+				02E571282206A7B90037EFE0 /* RatesParser.swift */,
+				02E5712A2206AD240037EFE0 /* CurrencyCellModel.swift */,
+				02E5712E2208140E0037EFE0 /* CurrencyCell.swift */,
+				02E571302208185D0037EFE0 /* CurrencyCell.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E571312208185D0037EFE0 /* CurrencyCell.xib in Resources */,
 				02E5710C220684280037EFE0 /* LaunchScreen.storyboard in Resources */,
 				02E57109220684280037EFE0 /* Assets.xcassets in Resources */,
 				02E57107220684260037EFE0 /* Main.storyboard in Resources */,
@@ -197,7 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E57104220684260037EFE0 /* ViewController.swift in Sources */,
+				02E5712322068DA20037EFE0 /* RealtimeTimer.swift in Sources */,
+				02E5712722069D060037EFE0 /* Currency.swift in Sources */,
+				02E5712B2206AD240037EFE0 /* CurrencyCellModel.swift in Sources */,
+				029BAEE22210D77900D7D738 /* RatesViewController.swift in Sources */,
+				02E571292206A7B90037EFE0 /* RatesParser.swift in Sources */,
+				02E57125220694940037EFE0 /* APIHandler.swift in Sources */,
+				02E5712F2208140E0037EFE0 /* CurrencyCell.swift in Sources */,
+				029BAEE32210D77900D7D738 /* RatesPresenter.swift in Sources */,
+				029BAEE42210D77900D7D738 /* RatesDataSource.swift in Sources */,
 				02E57102220684260037EFE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

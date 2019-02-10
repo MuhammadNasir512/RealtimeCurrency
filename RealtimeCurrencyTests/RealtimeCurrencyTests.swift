@@ -1,11 +1,3 @@
-//
-//  RealtimeCurrencyTests.swift
-//  RealtimeCurrencyTests
-//
-//  Created by Muhammad Nasir on 03/02/2019.
-//  Copyright © 2019 Muhammad Nasir. All rights reserved.
-//
-
 import XCTest
 @testable import RealtimeCurrency
 
